@@ -1,0 +1,56 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+#tittleWithImgs{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    padding: 1rem;    
+}
+
+.title {
+    color: #333D47;
+    text-align: center;
+}
+.img-title{
+    height: 80px;
+ 
+}
+
+body {
+    background-color: #f53f3f;
+}
+
+.content {
+    width: 100vw;
+    height: 100%;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+#pagination{
+    text-align: center;
+}
+
+#loadMoreButton{
+    padding: .5rem;
+    border-radius: 1rem;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+#loadMoreButton:hover{
+    background-color: #d80101;
+    color:white;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
